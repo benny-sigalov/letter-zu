@@ -1,0 +1,87 @@
+﻿
+// Zu# keyboard layout file
+// 
+// Format:
+//    Every line represents a key combination in the following format
+//    [Key1] + [Key2] : [lower case char],[,] [upper case char] -> [lower case char after pressing ESC],[,] [upper case char after pressing ESC]
+//	  The char after escape are only relevant for single keys combinations.
+//    Double comma means that case switching is make only by shift key, not by caps lock, this is made for symbols that are not letters.
+//    For all keys see, http://msdn.microsoft.com/en-us/library/system.windows.input.key.aspx
+
+#Name Russian Classic
+
+A					: А,а
+B					: Б,б
+W					: В,в
+V					: В,в
+G					: Г,г
+D					: Д,д
+E					: Е,е
+Y + O				: Ё,ё
+J + O				: Ё,ё
+J					: Ж,ж
+Z + H				: Ж,ж
+Z					: З,з
+I					: И,и
+I + OemQuotes		: Й,й
+K					: К,к
+Q					: К,к
+L					: Л,л
+M					: М,м
+N					: Н,н
+O					: О,о
+P					: П,п
+R					: Р,р
+S					: С,с
+T					: Т,т
+U					: У,у
+F					: Ф,ф
+H					: Х,х
+X					: Х,х
+C					: Ц,ц
+C + H				: Ч,ч
+S + H				: Ш,ш
+S + X				: Щ,щ
+OemQuotes			: Ь,ь -> ",,'
+Y					: Ы,ы
+OemTilde			: Ъ,ъ -> `,,~
+Y + E				: Э,э
+J + E				: Э,э
+Y + U				: Ю,ю
+J + U				: Ю,ю
+Y + A				: Я,я
+J + A				: Я,я
+
+OemOpenBrackets		: {,,[
+OemCloseBrackets	: },,]
+D1					: !,,1
+D2					: @,,2
+D3					: #,,3
+D4					: $,,4
+D5					: %,,5
+D6					: ^,,6
+D7					: &,,7
+D8					: *,,8
+D9					: (,,9
+D0					: ),,0
+OemMinus			: _,,-
+OemPlus				: +,,=
+OemSemicolon		: :,,;
+
+Oem5				: |,,\
+OemComma			: <,,,
+OemPeriod			: >,,.
+OemQuestion			: ?,,/
+
+Decimal				: .,,.
+Add					: +,,+
+Subtract			: -,,-
+Multiply			: *,,*
+Divide				: /,,/
+
+
+
+
+
+
+
